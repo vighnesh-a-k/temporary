@@ -1,0 +1,209 @@
+
+
+body{
+  padding-left:3%;
+  padding-right:3%;
+  background-color: beige;
+  margin-top:0;
+}
+.content{
+  background-color: white;
+    display:flex;
+    flex-direction: row;
+
+   
+    
+
+}
+aside{
+  width:100%;
+  height:100%;
+}
+
+
+img{
+    
+    height:100%;
+    width:100%;
+}
+aside{
+    background-color:rgb(26, 26, 26);
+    flex:3;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+}
+
+main{
+    
+    margin-top:10%;
+    flex:7;
+    display:flex;
+    flex-direction: column;
+    
+    
+    
+
+}
+.side-element{
+    padding:5%;
+    
+    align-self: center;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+
+.contact{
+    align-self: center;
+    
+}
+.jumbotron{
+    padding-left: 10%;
+    padding-top:5%;
+    padding-bottom:5%;
+    background-color: gold;
+}
+.main-element{
+    padding:5%;
+}
+
+.experience{
+    display:flex;
+
+    flex-direction: column;
+
+}
+.job1{
+    display:flex;
+    flex-direction: row;
+
+}
+.job1{
+    display:flex;
+    flex-direction: row;
+
+}
+.time{
+    flex:2;
+    
+
+}
+.description{
+    flex:3;
+}
+hr {
+    border-top: 2px solid black;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+#progressbar {
+    width: 100%;
+    height: 4px;
+    background-color: grey;
+    border-radius: 5%;
+    
+    
+}
+
+#progressbar > div {
+    border-radius:5%;
+    height: 4px;
+    width: 75%; /* You can change this value to reflect the progress */
+    background-color:black;
+
+}
+  
+
+.skills {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+  }
+  .one {
+
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 1;
+    grid-row: 2;
+  }
+  .four {
+    grid-column: 2;
+    grid-row: 2;
+  }
+  .five {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .six {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .skill-element{
+    padding:10%;
+  }
+  
+  .sub{
+    padding:10%;
+
+  }
+  .top-element {
+    padding-left:20%;
+  }
+
+
+aside hr{
+  width:85%;
+  
+  border-color:gold;
+  background-color:gold;
+  height: 1px;
+}
+.side-heading{
+  text-align: left;
+}
+.bottom-element{
+  
+  width:100%;
+}
+
+.contact-element{
+  margin-top:5%;
+  margin-bottom:5%;
+  display:flex;
+  flex-direction: row;
+  height:20px;
+  
+  
+}
+
+
+.yellow{
+  flex:2;
+  
+  background-color:gold;
+
+}
+.text {
+  font-weight: bold;
+  padding-left:20%;
+  flex :8;
+
+}
+.between{
+  padding-left:37%;
+}
